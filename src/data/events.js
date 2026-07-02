@@ -1,0 +1,102 @@
+// Synthetic local events for the Event-Kalender screen.
+
+export const EVENT_CATEGORIES = [
+  { id: 'krabbelgruppe', label: 'Krabbelgruppe', color: '#8CAE98' },
+  { id: 'babyschwimmen', label: 'Babyschwimmen', color: '#4FA5B8' },
+  { id: 'flohmarkt', label: 'Flohmarkt', color: '#C08552' },
+  { id: 'treffen', label: 'Treffen im Park', color: '#5A8FB5' },
+  { id: 'kurs', label: 'Kurs', color: '#B07BAC' },
+]
+
+export const EVENTS = [
+  {
+    id: 'e1',
+    title: 'Krabbelgruppe im Familienzentrum',
+    category: 'krabbelgruppe',
+    date: 'Do., 3. Juli',
+    time: '10:00 – 11:30',
+    location: 'Familienzentrum Mitte',
+    ageRange: '0–12 Monate',
+    host: 'Familienzentrum Mitte',
+    attendees: 12,
+    capacity: 15,
+    verified: true,
+    description:
+      'Gemütliche Krabbelrunde mit Liedern und Fingerspielen. Anschließend Zeit zum Austauschen bei Tee.',
+  },
+  {
+    id: 'e2',
+    title: 'Babyschwimmen für Anfänger',
+    category: 'babyschwimmen',
+    date: 'Fr., 4. Juli',
+    time: '09:15 – 10:00',
+    location: 'Hallenbad Waldsee',
+    ageRange: '3–10 Monate',
+    host: 'DLRG Ortsgruppe',
+    attendees: 8,
+    capacity: 8,
+    verified: true,
+    description:
+      'Sanfte Wassergewöhnung im warmen Lehrschwimmbecken. Bitte Schwimmwindel mitbringen.',
+  },
+  {
+    id: 'e3',
+    title: 'Großer Kinder-Flohmarkt',
+    category: 'flohmarkt',
+    date: 'Sa., 5. Juli',
+    time: '09:00 – 14:00',
+    location: 'Turnhalle Grundschule Nord',
+    ageRange: 'alle',
+    host: 'Elternbeirat',
+    attendees: 47,
+    capacity: 200,
+    verified: true,
+    description:
+      'Kleidung, Spielzeug und Ausstattung aus zweiter Hand. Kuchenverkauf zugunsten der Schulbücherei.',
+  },
+  {
+    id: 'e4',
+    title: 'Spontanes Treffen am Rosengarten',
+    category: 'treffen',
+    date: 'So., 6. Juli',
+    time: '15:00 – 17:00',
+    location: 'Spielplatz am Rosengarten',
+    ageRange: '1–4 Jahre',
+    host: 'Nachbarin Lena',
+    attendees: 6,
+    capacity: 20,
+    verified: false,
+    description:
+      'Einfach vorbeikommen! Wir sitzen mit Picknickdecke bei den Bänken. Kaffee to go mitbringen 😊',
+  },
+  {
+    id: 'e5',
+    title: 'Erste-Hilfe-Kurs am Kind',
+    category: 'kurs',
+    date: 'Mi., 9. Juli',
+    time: '18:00 – 21:00',
+    location: 'VHS Raum 204',
+    ageRange: 'Eltern',
+    host: 'Johanniter',
+    attendees: 14,
+    capacity: 18,
+    verified: true,
+    description:
+      'Kompakter Abendkurs: Notfälle bei Babys und Kleinkindern erkennen und richtig handeln.',
+  },
+  {
+    id: 'e6',
+    title: 'PEKiP-Gruppe (neue Runde)',
+    category: 'kurs',
+    date: 'Do., 10. Juli',
+    time: '11:00 – 12:30',
+    location: 'Praxis für Physiotherapie am Markt',
+    ageRange: '2–6 Monate',
+    host: 'Hebamme Sabine',
+    attendees: 5,
+    capacity: 8,
+    verified: true,
+    description:
+      'Bewegungs- und Wahrnehmungsförderung nach dem Prager-Eltern-Kind-Programm.',
+  },
+]
